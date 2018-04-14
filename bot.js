@@ -13,6 +13,7 @@ This is a sample Cisco Spark bot built with Botkit.
     -> https://developer.ciscospark.com/bots.html
   Run your bot from the command line:
     access_token=<MY BOT ACCESS TOKEN> public_address=<MY PUBLIC HTTPS URL> node bot.js
+    access_token=YzMxMmU4MDgtNzA0Mi00YjYzLTlkZTctNzM5NDEzZTBlYWZiNjViNzBlMWEtMTk3 public_address=https://different-cormorant.glitch.me/ node bot.js
 
 
 
@@ -47,6 +48,11 @@ var controller = Botkit.sparkbot({
     secret: process.env.secret, // this is an RECOMMENDED but optional setting that enables validation of incoming webhooks
     webhook_name: 'Cisco Spark bot created with Botkit, override me before going to production',
     studio_command_uri: process.env.studio_command_uri,
+});
+
+// Set up dialogFlow middleware
+var dialogflowMiddleware = require('botkit-middleware-dialogflow')({
+    token: process.env.dialog_token,
 });
 
 // Set up an Express-powered webserver to expose oauth and webhook endpoints
