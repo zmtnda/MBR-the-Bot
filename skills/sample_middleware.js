@@ -19,13 +19,11 @@ module.exports = function(controller) {
     //
     controller.middleware.send.use(function(bot, message, next) {
     
-        // do something...
-    
         if (message.intent == 'help') {
             message.text = 'Hello!!!';
+            bot.reply(message, 'Hello!');
         }
         console.log('SEND:', message);
-        bot.reply(message, 'Hello!');
         next();
     
     });
