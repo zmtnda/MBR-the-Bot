@@ -4,28 +4,21 @@ var dialogflowMiddleware = require('botkit-middleware-dialogflow')({
 });
 module.exports = function(controller) {
 
-    // controller.middleware.receive.use(function(bot, message, next) {
-    
-    //     // do something...
-    //     console.log('SEND:', message);
-    //     next();
-    
-    // });
-    // controller.middleware.receive.use(dialogflowMiddleware.receive);
-    // // listen for comma-separated 'hello-intent' or 'greeting-intent'
-    // controller.hears('weather,help', 'direct_message', dialogflowMiddleware.hears, function(bot, message) {
-    //     bot.reply(message, 'Hello!');
-    // });    
-    //
-    controller.middleware.send.use(function(bot, message, next) {
-    
-        if (message.intent == 'help') {
-            message.text = 'Hello!!!';
-            bot.reply(message, 'Hello!');
-        }
-        console.log('SEND:', message);
-        next();
-    
+    controller.middleware.receive.use(dialogflowMiddleware.receive);
+    controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
+      console.log(JSON.stringify(message));
+      console.log('test middleware');
+      bot.reply(message, message.fulfillment.speech);
     });
+
+//     controller.middleware.send.use(function(bot, message, next) {
+
+//         // do something useful...
+//         if (message.intent == 'hi') {
+//             message.text = 'Hello!!!';
+//         }
+//         next();
+
+//     });
 
 }
