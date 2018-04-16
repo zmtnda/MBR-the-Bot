@@ -31,7 +31,7 @@ module.exports = function(controller) {
     var fs = require('fs');
     var obj = JSON.parse(fs.readFileSync('./shared/intents.json', 'utf8'));
     function getMBRdata(tag) {
-        var text = "";
+        var text = ""; 
         obj.intents.forEach(element => {
             if (element.tag == tag.fulfillment.speech){
                 text = element.responses[0];
