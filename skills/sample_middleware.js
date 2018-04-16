@@ -7,7 +7,6 @@ module.exports = function(controller) {
     controller.middleware.receive.use(dialogflowMiddleware.receive);
     controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
     console.log(JSON.stringify(message));
-    console.log('test middleware');
     var response = getMBRdata( message);
     if (response == ''){
         bot.reply(message,"Sorry couldn't find the data");
@@ -32,18 +31,13 @@ module.exports = function(controller) {
     var fs = require('fs');
     var obj = JSON.parse(fs.readFileSync('./shared/intents.json', 'utf8'));
     function getMBRdata(tag) {
-
         var text = "";
-
         obj.intents.forEach(element => {
-          console.log(element.tag, tag.fulfillment.speech)
             if (element.tag == tag.fulfillment.speech){
                 text = element.responses[0];
-                console.log("response", text)
                 return text;
             }
         });
-
         return text;
 
     }
