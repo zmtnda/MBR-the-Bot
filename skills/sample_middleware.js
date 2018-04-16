@@ -4,18 +4,18 @@ var dialogflowMiddleware = require('botkit-middleware-dialogflow')({
 });
 module.exports = function(controller) {
 
-    controller.middleware.receive.use(dialogflowMiddleware.receive);
-    controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
-    console.log(JSON.stringify(message));
-    var response = getMBRdata( message);
-    if (response == ''){
-        bot.reply(message,"Sorry couldn't find the data");
-    }
-    else{
-        bot.reply(message,response);
-    }
+    // controller.middleware.receive.use(dialogflowMiddleware.receive);
+    // controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
+    // console.log("message",JSON.stringify(message));
+    // var response = getMBRdata( message);
+    // if (response == ''){
+    //     getAssistance(bot, message);
+    // }
+    // else{
+    //     bot.reply(message,response);
+    // }
       
-    });
+    // });
 
 //     controller.middleware.send.use(function(bot, message, next) {
 
@@ -40,6 +40,20 @@ module.exports = function(controller) {
         });
         return text;
 
+    }
+
+    //simple funciton to handle ambiguous query
+    function getAssistance(bot, message){
+        bot.startConversation(message, function(err, convo) {
+            convo.say('I am sorry I do not understand what you are saying. If you need assistance I can add a support member to continue the conversation.');
+            convo.ask('Is that what you want? (Y/N)', function(response, convo) {
+                if(response.text == 'Y'){
+                    convo.say('Support member, Matt has entered the room. Thanks for using MBR-the-Bot');
+                    convo.next();
+                }
+
+            });
+        });
     }
 
 }

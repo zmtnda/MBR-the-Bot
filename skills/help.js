@@ -19,7 +19,7 @@ module.exports = function(controller) {
     // });
     controller.hears(['help'], 'direct_message,direct_mention', function(bot, message) {
 
-        bot.reply('Ask any questions about the dashboards you have access to. For example: What is wtd America?');
+        bot.reply(message,'Ask any questions about the dashboards you have access to. For example: What is wtd America?');
 
     });
 
