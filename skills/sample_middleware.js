@@ -8,7 +8,7 @@ module.exports = function(controller) {
     controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
     console.log(JSON.stringify(message));
     console.log('test middleware');
-    var response = getMBRdata( message.fulfillment.speech);
+    var response = getMBRdata( message);
     if (response == ''){
         bot.reply(message,"Sorry couldn't find the data");
     }
@@ -30,14 +30,15 @@ module.exports = function(controller) {
 
     // simple function to generate the corresponding MBR responses
     var fs = require('fs');
-    var obj = JSON.parse(fs.readFileSync('../shared/intents.json', 'utf8'));
+    var obj = JSON.parse(fs.readFileSync('./shared/intents.json', 'utf8'));
     function getMBRdata(tag) {
 
-        var text = '';
+        var text = "";
 
-        ob.intents.length.array.forEach(element => {
-            if (element.tag == tag){
-                text = element.responses;
+        obj.intents.forEach(element => {
+          console.log(element.tag, tag.fulfillment.speech)
+            if (element.tag == tag.fulfillment.speech){
+                text = element.responses[0];
                 console.log("response", text)
                 return text;
             }
