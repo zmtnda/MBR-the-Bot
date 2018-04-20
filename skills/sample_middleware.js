@@ -5,26 +5,39 @@ var dialogflowMiddleware = require('botkit-middleware-dialogflow')({
 module.exports = function(controller) {
 
     controller.middleware.receive.use(dialogflowMiddleware.receive);
+  
     controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
     console.log("message",JSON.stringify(message),message.fulfillment.speech[0] );
-    if (message.fulfillment.speech[0] == '_'){
-      var response = getMBRdata( message);
-      if (response == ''){
-          getAssistance(bot, message);
-      }
-      else{
-          bot.reply(message,response);
-      }
-    }
-    else{
-        bot.startConversation(message, function(err, convo) {
-          convo.ask(message.fulfillment.speech, function(response, convo) {
-            console.log("esponse.text",response.text)
-            convo.next();
-          });
-        });
-    }
-        
+        // controller.middleware.receive.use(function(bot, message, next) {
+        //     console.log("controller.middleware.receive.use", JSON.stringify(message))
+        //     message.text= "receive"
+        //     // do something...
+        //     next();
+        // });
+//         controller.middleware.send.use(function(bot, message, next) {
+//             console.log("controller.middleware.send.use", message)
+//                 // do something useful...
+//                 message.text = 'the actual value + another suggestion query will display';
+//                 next();
+
+//             });
+        if (message.fulfillment.speech[0] == '_'){
+          var response = getMBRdata( message);
+          if (response == ''){
+              getAssistance(bot, message);
+          }
+          else{
+              bot.reply(message,response);
+          }
+        }
+        else{
+            bot.startConversation(message, function(err, convo) {
+              convo.ask(message.fulfillment.speech, function(response, convo) {
+                console.log("esponse.text",response.text)
+                convo.next();
+              });
+            });
+        }
     });
   controller.middleware.capture.use(function(bot, message, convo, next) {
 
@@ -51,16 +64,6 @@ module.exports = function(controller) {
     next();
 
 });
-
-//     controller.middleware.send.use(function(bot, message, next) {
-
-//         // do something useful...
-//         if (message.intent == 'hi') {
-//             message.text = 'Hello!!!';
-//         }
-//         next();
-
-//     });
 
     // simple function to generate the corresponding MBR responses
     var fs = require('fs');
