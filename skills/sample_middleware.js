@@ -7,7 +7,7 @@ module.exports = function(controller) {
     controller.middleware.receive.use(dialogflowMiddleware.receive);
   
     controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
-    console.log("message",JSON.stringify(message),message.fulfillment.speech[0] );
+    console.log("my message",JSON.stringify(message),message.fulfillment.speech[0] );
         // controller.middleware.receive.use(function(bot, message, next) {
         //     console.log("controller.middleware.receive.use", JSON.stringify(message))
         //     message.text= "receive"
