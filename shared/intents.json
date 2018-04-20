@@ -3,8 +3,8 @@
         {
             "tag": "refreshDateWTD",
             "patterns": [
-                " refreshDateWTD",
-                " refresh Date WTD"
+                "refreshDateWTD",
+                "refresh Date WTD"
             ],
             "responses": [
                 "2018-02-21 11:02:48 PM"
@@ -13,8 +13,8 @@
         {
             "tag": "refreshPercentWTD",
             "patterns": [
-                " refreshPercentWTD",
-                " refresh Percent WTD"
+                "refreshPercentWTD",
+                "refresh Percent WTD"
             ],
             "responses": [
                 "60% - 3 days out of 5"
@@ -23,8 +23,8 @@
         {
             "tag": "currentWeek",
             "patterns": [
-                " currentWeek",
-                " current Week"
+                "currentWeek",
+                "current Week"
             ],
             "responses": [
                 "WK4"
@@ -33,7 +33,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_actualsWTD",
             "patterns": [
-                "us commercial americas  actualsWTD",
+                "us commercial americas actualsWTD",
                 "us commercial americas actuals WTD"
             ],
             "responses": [
@@ -43,7 +43,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_currDayActualWTD",
             "patterns": [
-                "us commercial americas  currDayActualWTD",
+                "us commercial americas currDayActualWTD",
                 "us commercial americas curr Day Actual WTD"
             ],
             "responses": [
@@ -53,7 +53,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_currWeekForecast",
             "patterns": [
-                "us commercial americas  currWeekForecast",
+                "us commercial americas currWeekForecast",
                 "us commercial americas curr Week Forecast"
             ],
             "responses": [
@@ -63,7 +63,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_%PercentCurrentWeekForecast",
             "patterns": [
-                "us commercial americas  %PercentCurrentWeekForecast",
+                "us commercial americas %PercentCurrentWeekForecast",
                 "us commercial americas % Percent Current Week Forecast"
             ],
             "responses": [
@@ -73,7 +73,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_currentWeekLinearity",
             "patterns": [
-                "us commercial americas  currentWeekLinearity",
+                "us commercial americas currentWeekLinearity",
                 "us commercial americas current Week Linearity"
             ],
             "responses": [
@@ -83,7 +83,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_currWeekToGoTogo",
             "patterns": [
-                "us commercial americas  currWeekToGoTogo",
+                "us commercial americas currWeekToGoTogo",
                 "us commercial americas curr Week To Go Togo"
             ],
             "responses": [
@@ -93,7 +93,6 @@
         {
             "tag": "US_COMMERCIAL_Americas_plan",
             "patterns": [
-                "us commercial americas  plan",
                 "us commercial americas plan"
             ],
             "responses": [
@@ -103,7 +102,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_%PercentPlan",
             "patterns": [
-                "us commercial americas  %PercentPlan",
+                "us commercial americas %PercentPlan",
                 "us commercial americas % Percent Plan"
             ],
             "responses": [
@@ -113,7 +112,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_planTogoToGo",
             "patterns": [
-                "us commercial americas  planTogoToGo",
+                "us commercial americas planTogoToGo",
                 "us commercial americas plan Togo To Go"
             ],
             "responses": [
@@ -123,7 +122,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_actualsWTD",
             "patterns": [
-                "global enterprise segment americas  actualsWTD",
+                "global enterprise segment americas actualsWTD",
                 "global enterprise segment americas actuals WTD"
             ],
             "responses": [
@@ -133,7 +132,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_currDayActualWTD",
             "patterns": [
-                "global enterprise segment americas  currDayActualWTD",
+                "global enterprise segment americas currDayActualWTD",
                 "global enterprise segment americas curr Day Actual WTD"
             ],
             "responses": [
@@ -143,7 +142,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_currWeekForecast",
             "patterns": [
-                "global enterprise segment americas  currWeekForecast",
+                "global enterprise segment americas currWeekForecast",
                 "global enterprise segment americas curr Week Forecast"
             ],
             "responses": [
@@ -153,7 +152,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_%PercentCurrentWeekForecast",
             "patterns": [
-                "global enterprise segment americas  %PercentCurrentWeekForecast",
+                "global enterprise segment americas %PercentCurrentWeekForecast",
                 "global enterprise segment americas % Percent Current Week Forecast"
             ],
             "responses": [
@@ -163,7 +162,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_currentWeekLinearity",
             "patterns": [
-                "global enterprise segment americas  currentWeekLinearity",
+                "global enterprise segment americas currentWeekLinearity",
                 "global enterprise segment americas current Week Linearity"
             ],
             "responses": [
@@ -173,7 +172,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_currWeekToGoTogo",
             "patterns": [
-                "global enterprise segment americas  currWeekToGoTogo",
+                "global enterprise segment americas currWeekToGoTogo",
                 "global enterprise segment americas curr Week To Go Togo"
             ],
             "responses": [
@@ -183,7 +182,6 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_plan",
             "patterns": [
-                "global enterprise segment americas  plan",
                 "global enterprise segment americas plan"
             ],
             "responses": [
@@ -193,7 +191,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_%PercentPlan",
             "patterns": [
-                "global enterprise segment americas  %PercentPlan",
+                "global enterprise segment americas %PercentPlan",
                 "global enterprise segment americas % Percent Plan"
             ],
             "responses": [
@@ -203,7 +201,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_planTogoToGo",
             "patterns": [
-                "global enterprise segment americas  planTogoToGo",
+                "global enterprise segment americas planTogoToGo",
                 "global enterprise segment americas plan Togo To Go"
             ],
             "responses": [
@@ -213,7 +211,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_actualsWTD",
             "patterns": [
-                "us ps market segment americas  actualsWTD",
+                "us ps market segment americas actualsWTD",
                 "us ps market segment americas actuals WTD"
             ],
             "responses": [
@@ -223,7 +221,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_currDayActualWTD",
             "patterns": [
-                "us ps market segment americas  currDayActualWTD",
+                "us ps market segment americas currDayActualWTD",
                 "us ps market segment americas curr Day Actual WTD"
             ],
             "responses": [
@@ -233,7 +231,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_currWeekForecast",
             "patterns": [
-                "us ps market segment americas  currWeekForecast",
+                "us ps market segment americas currWeekForecast",
                 "us ps market segment americas curr Week Forecast"
             ],
             "responses": [
@@ -243,7 +241,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_%PercentCurrentWeekForecast",
             "patterns": [
-                "us ps market segment americas  %PercentCurrentWeekForecast",
+                "us ps market segment americas %PercentCurrentWeekForecast",
                 "us ps market segment americas % Percent Current Week Forecast"
             ],
             "responses": [
@@ -253,7 +251,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_currentWeekLinearity",
             "patterns": [
-                "us ps market segment americas  currentWeekLinearity",
+                "us ps market segment americas currentWeekLinearity",
                 "us ps market segment americas current Week Linearity"
             ],
             "responses": [
@@ -263,7 +261,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_currWeekToGoTogo",
             "patterns": [
-                "us ps market segment americas  currWeekToGoTogo",
+                "us ps market segment americas currWeekToGoTogo",
                 "us ps market segment americas curr Week To Go Togo"
             ],
             "responses": [
@@ -273,7 +271,6 @@
         {
             "tag": "US_PS_Market_Segment_Americas_plan",
             "patterns": [
-                "us ps market segment americas  plan",
                 "us ps market segment americas plan"
             ],
             "responses": [
@@ -283,7 +280,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_%PercentPlan",
             "patterns": [
-                "us ps market segment americas  %PercentPlan",
+                "us ps market segment americas %PercentPlan",
                 "us ps market segment americas % Percent Plan"
             ],
             "responses": [
@@ -293,7 +290,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_planTogoToGo",
             "patterns": [
-                "us ps market segment americas  planTogoToGo",
+                "us ps market segment americas planTogoToGo",
                 "us ps market segment americas plan Togo To Go"
             ],
             "responses": [
@@ -303,7 +300,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_actualsWTD",
             "patterns": [
-                "latin america americas  actualsWTD",
+                "latin america americas actualsWTD",
                 "latin america americas actuals WTD"
             ],
             "responses": [
@@ -313,7 +310,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_currDayActualWTD",
             "patterns": [
-                "latin america americas  currDayActualWTD",
+                "latin america americas currDayActualWTD",
                 "latin america americas curr Day Actual WTD"
             ],
             "responses": [
@@ -323,7 +320,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_currWeekForecast",
             "patterns": [
-                "latin america americas  currWeekForecast",
+                "latin america americas currWeekForecast",
                 "latin america americas curr Week Forecast"
             ],
             "responses": [
@@ -333,7 +330,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_%PercentCurrentWeekForecast",
             "patterns": [
-                "latin america americas  %PercentCurrentWeekForecast",
+                "latin america americas %PercentCurrentWeekForecast",
                 "latin america americas % Percent Current Week Forecast"
             ],
             "responses": [
@@ -343,7 +340,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_currentWeekLinearity",
             "patterns": [
-                "latin america americas  currentWeekLinearity",
+                "latin america americas currentWeekLinearity",
                 "latin america americas current Week Linearity"
             ],
             "responses": [
@@ -353,7 +350,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_currWeekToGoTogo",
             "patterns": [
-                "latin america americas  currWeekToGoTogo",
+                "latin america americas currWeekToGoTogo",
                 "latin america americas curr Week To Go Togo"
             ],
             "responses": [
@@ -363,7 +360,6 @@
         {
             "tag": "LATIN_AMERICA_Americas_plan",
             "patterns": [
-                "latin america americas  plan",
                 "latin america americas plan"
             ],
             "responses": [
@@ -373,7 +369,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_%PercentPlan",
             "patterns": [
-                "latin america americas  %PercentPlan",
+                "latin america americas %PercentPlan",
                 "latin america americas % Percent Plan"
             ],
             "responses": [
@@ -383,7 +379,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_planTogoToGo",
             "patterns": [
-                "latin america americas  planTogoToGo",
+                "latin america americas planTogoToGo",
                 "latin america americas plan Togo To Go"
             ],
             "responses": [
@@ -393,7 +389,7 @@
         {
             "tag": "CANADA_Americas_actualsWTD",
             "patterns": [
-                "canada americas  actualsWTD",
+                "canada americas actualsWTD",
                 "canada americas actuals WTD"
             ],
             "responses": [
@@ -403,7 +399,7 @@
         {
             "tag": "CANADA_Americas_currDayActualWTD",
             "patterns": [
-                "canada americas  currDayActualWTD",
+                "canada americas currDayActualWTD",
                 "canada americas curr Day Actual WTD"
             ],
             "responses": [
@@ -413,7 +409,7 @@
         {
             "tag": "CANADA_Americas_currWeekForecast",
             "patterns": [
-                "canada americas  currWeekForecast",
+                "canada americas currWeekForecast",
                 "canada americas curr Week Forecast"
             ],
             "responses": [
@@ -423,7 +419,7 @@
         {
             "tag": "CANADA_Americas_%PercentCurrentWeekForecast",
             "patterns": [
-                "canada americas  %PercentCurrentWeekForecast",
+                "canada americas %PercentCurrentWeekForecast",
                 "canada americas % Percent Current Week Forecast"
             ],
             "responses": [
@@ -433,7 +429,7 @@
         {
             "tag": "CANADA_Americas_currentWeekLinearity",
             "patterns": [
-                "canada americas  currentWeekLinearity",
+                "canada americas currentWeekLinearity",
                 "canada americas current Week Linearity"
             ],
             "responses": [
@@ -443,7 +439,7 @@
         {
             "tag": "CANADA_Americas_currWeekToGoTogo",
             "patterns": [
-                "canada americas  currWeekToGoTogo",
+                "canada americas currWeekToGoTogo",
                 "canada americas curr Week To Go Togo"
             ],
             "responses": [
@@ -453,7 +449,6 @@
         {
             "tag": "CANADA_Americas_plan",
             "patterns": [
-                "canada americas  plan",
                 "canada americas plan"
             ],
             "responses": [
@@ -463,7 +458,7 @@
         {
             "tag": "CANADA_Americas_%PercentPlan",
             "patterns": [
-                "canada americas  %PercentPlan",
+                "canada americas %PercentPlan",
                 "canada americas % Percent Plan"
             ],
             "responses": [
@@ -473,7 +468,7 @@
         {
             "tag": "CANADA_Americas_planTogoToGo",
             "patterns": [
-                "canada americas  planTogoToGo",
+                "canada americas planTogoToGo",
                 "canada americas plan Togo To Go"
             ],
             "responses": [
@@ -483,7 +478,7 @@
         {
             "tag": "US_AND_CANADA_MISC_Americas_actualsWTD",
             "patterns": [
-                "us and canada misc americas  actualsWTD",
+                "us and canada misc americas actualsWTD",
                 "us and canada misc americas actuals WTD"
             ],
             "responses": [
@@ -493,7 +488,7 @@
         {
             "tag": "US_AND_CANADA_MISC_Americas_currDayActualWTD",
             "patterns": [
-                "us and canada misc americas  currDayActualWTD",
+                "us and canada misc americas currDayActualWTD",
                 "us and canada misc americas curr Day Actual WTD"
             ],
             "responses": [
@@ -503,7 +498,7 @@
         {
             "tag": "US_AND_CANADA_MISC_Americas_currWeekToGoTogo",
             "patterns": [
-                "us and canada misc americas  currWeekToGoTogo",
+                "us and canada misc americas currWeekToGoTogo",
                 "us and canada misc americas curr Week To Go Togo"
             ],
             "responses": [
@@ -513,7 +508,6 @@
         {
             "tag": "US_AND_CANADA_MISC_Americas_plan",
             "patterns": [
-                "us and canada misc americas  plan",
                 "us and canada misc americas plan"
             ],
             "responses": [
@@ -523,7 +517,7 @@
         {
             "tag": "US_AND_CANADA_MISC_Americas_%PercentPlan",
             "patterns": [
-                "us and canada misc americas  %PercentPlan",
+                "us and canada misc americas %PercentPlan",
                 "us and canada misc americas % Percent Plan"
             ],
             "responses": [
@@ -533,7 +527,7 @@
         {
             "tag": "US_AND_CANADA_MISC_Americas_planTogoToGo",
             "patterns": [
-                "us and canada misc americas  planTogoToGo",
+                "us and canada misc americas planTogoToGo",
                 "us and canada misc americas plan Togo To Go"
             ],
             "responses": [
@@ -543,7 +537,7 @@
         {
             "tag": "Americas-MISCL2_currWeekForecast",
             "patterns": [
-                "americas-miscl2  currWeekForecast",
+                "americas-miscl2 currWeekForecast",
                 "americas miscl2 curr Week Forecast"
             ],
             "responses": [
@@ -553,7 +547,7 @@
         {
             "tag": "Americas-MISCL2_currWeekToGoTogo",
             "patterns": [
-                "americas-miscl2  currWeekToGoTogo",
+                "americas-miscl2 currWeekToGoTogo",
                 "americas miscl2 curr Week To Go Togo"
             ],
             "responses": [
@@ -563,7 +557,7 @@
         {
             "tag": "US_OTHER_Americas_actualsWTD",
             "patterns": [
-                "us other americas  actualsWTD",
+                "us other americas actualsWTD",
                 "us other americas actuals WTD"
             ],
             "responses": [
@@ -573,7 +567,7 @@
         {
             "tag": "US_OTHER_Americas_currDayActualWTD",
             "patterns": [
-                "us other americas  currDayActualWTD",
+                "us other americas currDayActualWTD",
                 "us other americas curr Day Actual WTD"
             ],
             "responses": [
@@ -583,7 +577,7 @@
         {
             "tag": "US_OTHER_Americas_currWeekForecast",
             "patterns": [
-                "us other americas  currWeekForecast",
+                "us other americas currWeekForecast",
                 "us other americas curr Week Forecast"
             ],
             "responses": [
@@ -593,7 +587,7 @@
         {
             "tag": "US_OTHER_Americas_%PercentCurrentWeekForecast",
             "patterns": [
-                "us other americas  %PercentCurrentWeekForecast",
+                "us other americas %PercentCurrentWeekForecast",
                 "us other americas % Percent Current Week Forecast"
             ],
             "responses": [
@@ -603,7 +597,7 @@
         {
             "tag": "US_OTHER_Americas_currentWeekLinearity",
             "patterns": [
-                "us other americas  currentWeekLinearity",
+                "us other americas currentWeekLinearity",
                 "us other americas current Week Linearity"
             ],
             "responses": [
@@ -613,7 +607,7 @@
         {
             "tag": "US_OTHER_Americas_currWeekToGoTogo",
             "patterns": [
-                "us other americas  currWeekToGoTogo",
+                "us other americas currWeekToGoTogo",
                 "us other americas curr Week To Go Togo"
             ],
             "responses": [
@@ -623,7 +617,7 @@
         {
             "tag": "US_OTHER_Americas_planTogoToGo",
             "patterns": [
-                "us other americas  planTogoToGo",
+                "us other americas planTogoToGo",
                 "us other americas plan Togo To Go"
             ],
             "responses": [
@@ -633,7 +627,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_actualsWTD",
             "patterns": [
-                "sbtg_us commercial americas  actualsWTD",
+                "sbtg_us commercial americas actualsWTD",
                 "sbtg us commercial americas actuals WTD"
             ],
             "responses": [
@@ -643,7 +637,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_currDayActualWTD",
             "patterns": [
-                "sbtg_us commercial americas  currDayActualWTD",
+                "sbtg_us commercial americas currDayActualWTD",
                 "sbtg us commercial americas curr Day Actual WTD"
             ],
             "responses": [
@@ -653,7 +647,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_currWeekForecast",
             "patterns": [
-                "sbtg_us commercial americas  currWeekForecast",
+                "sbtg_us commercial americas currWeekForecast",
                 "sbtg us commercial americas curr Week Forecast"
             ],
             "responses": [
@@ -663,7 +657,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_%PercentCurrentWeekForecast",
             "patterns": [
-                "sbtg_us commercial americas  %PercentCurrentWeekForecast",
+                "sbtg_us commercial americas %PercentCurrentWeekForecast",
                 "sbtg us commercial americas % Percent Current Week Forecast"
             ],
             "responses": [
@@ -673,7 +667,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_currentWeekLinearity",
             "patterns": [
-                "sbtg_us commercial americas  currentWeekLinearity",
+                "sbtg_us commercial americas currentWeekLinearity",
                 "sbtg us commercial americas current Week Linearity"
             ],
             "responses": [
@@ -683,7 +677,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_currWeekToGoTogo",
             "patterns": [
-                "sbtg_us commercial americas  currWeekToGoTogo",
+                "sbtg_us commercial americas currWeekToGoTogo",
                 "sbtg us commercial americas curr Week To Go Togo"
             ],
             "responses": [
@@ -693,7 +687,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_plan",
             "patterns": [
-                "sbtg_us commercial americas  plan",
+                "sbtg_us commercial americas plan",
                 "sbtg us commercial americas plan"
             ],
             "responses": [
@@ -703,7 +697,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_%PercentPlan",
             "patterns": [
-                "sbtg_us commercial americas  %PercentPlan",
+                "sbtg_us commercial americas %PercentPlan",
                 "sbtg us commercial americas % Percent Plan"
             ],
             "responses": [
@@ -713,7 +707,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_planTogoToGo",
             "patterns": [
-                "sbtg_us commercial americas  planTogoToGo",
+                "sbtg_us commercial americas planTogoToGo",
                 "sbtg us commercial americas plan Togo To Go"
             ],
             "responses": [
@@ -723,7 +717,7 @@
         {
             "tag": "AMERICAS_MISC_Americas_actualsWTD",
             "patterns": [
-                "americas_misc americas  actualsWTD",
+                "americas_misc americas actualsWTD",
                 "americas misc americas actuals WTD"
             ],
             "responses": [
@@ -733,7 +727,7 @@
         {
             "tag": "AMERICAS_MISC_Americas_currDayActualWTD",
             "patterns": [
-                "americas_misc americas  currDayActualWTD",
+                "americas_misc americas currDayActualWTD",
                 "americas misc americas curr Day Actual WTD"
             ],
             "responses": [
@@ -743,7 +737,7 @@
         {
             "tag": "AMERICAS_MISC_Americas_currWeekToGoTogo",
             "patterns": [
-                "americas_misc americas  currWeekToGoTogo",
+                "americas_misc americas currWeekToGoTogo",
                 "americas misc americas curr Week To Go Togo"
             ],
             "responses": [
@@ -753,7 +747,7 @@
         {
             "tag": "AMERICAS_MISC_Americas_planTogoToGo",
             "patterns": [
-                "americas_misc americas  planTogoToGo",
+                "americas_misc americas planTogoToGo",
                 "americas misc americas plan Togo To Go"
             ],
             "responses": [
@@ -763,7 +757,7 @@
         {
             "tag": "__Grand_Total_actualsWTD",
             "patterns": [
-                "  grand total  actualsWTD",
+                "grand total actualsWTD",
                 "grand total actuals WTD"
             ],
             "responses": [
@@ -773,7 +767,7 @@
         {
             "tag": "__Grand_Total_currDayActualWTD",
             "patterns": [
-                "  grand total  currDayActualWTD",
+                "grand total currDayActualWTD",
                 "grand total curr Day Actual WTD"
             ],
             "responses": [
@@ -783,7 +777,7 @@
         {
             "tag": "__Grand_Total_currWeekForecast",
             "patterns": [
-                "  grand total  currWeekForecast",
+                "grand total currWeekForecast",
                 "grand total curr Week Forecast"
             ],
             "responses": [
@@ -793,7 +787,7 @@
         {
             "tag": "__Grand_Total_%PercentCurrentWeekForecast",
             "patterns": [
-                "  grand total  %PercentCurrentWeekForecast",
+                "grand total %PercentCurrentWeekForecast",
                 "grand total % Percent Current Week Forecast"
             ],
             "responses": [
@@ -803,7 +797,7 @@
         {
             "tag": "__Grand_Total_currentWeekLinearity",
             "patterns": [
-                "  grand total  currentWeekLinearity",
+                "grand total currentWeekLinearity",
                 "grand total current Week Linearity"
             ],
             "responses": [
@@ -813,7 +807,7 @@
         {
             "tag": "__Grand_Total_currWeekToGoTogo",
             "patterns": [
-                "  grand total  currWeekToGoTogo",
+                "grand total currWeekToGoTogo",
                 "grand total curr Week To Go Togo"
             ],
             "responses": [
@@ -823,7 +817,6 @@
         {
             "tag": "__Grand_Total_plan",
             "patterns": [
-                "  grand total  plan",
                 "grand total plan"
             ],
             "responses": [
@@ -833,7 +826,7 @@
         {
             "tag": "__Grand_Total_%PercentPlan",
             "patterns": [
-                "  grand total  %PercentPlan",
+                "grand total %PercentPlan",
                 "grand total % Percent Plan"
             ],
             "responses": [
@@ -843,7 +836,7 @@
         {
             "tag": "__Grand_Total_planTogoToGo",
             "patterns": [
-                "  grand total  planTogoToGo",
+                "grand total planTogoToGo",
                 "grand total plan Togo To Go"
             ],
             "responses": [
@@ -853,7 +846,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_totalPotential",
             "patterns": [
-                "us commercial americas  totalPotential",
+                "us commercial americas totalPotential",
                 "us commercial americas total Potential"
             ],
             "responses": [
@@ -863,7 +856,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_changeInPotential",
             "patterns": [
-                "us commercial americas  changeInPotential",
+                "us commercial americas changeInPotential",
                 "us commercial americas change In Potential"
             ],
             "responses": [
@@ -873,7 +866,7 @@
         {
             "tag": "US_COMMERCIAL_Americas_currentWeekToGoTogo",
             "patterns": [
-                "us commercial americas  currentWeekToGoTogo",
+                "us commercial americas currentWeekToGoTogo",
                 "us commercial americas current Week To Go Togo"
             ],
             "responses": [
@@ -881,29 +874,9 @@
             ]
         },
         {
-            "tag": "US_COMMERCIAL_Americas_%PercentCurrentWeekForecast",
-            "patterns": [
-                "us commercial americas  %PercentCurrentWeekForecast",
-                "us commercial americas % Percent Current Week Forecast"
-            ],
-            "responses": [
-                85
-            ]
-        },
-        {
-            "tag": "US_COMMERCIAL_Americas_currentWeekLinearity",
-            "patterns": [
-                "us commercial americas  currentWeekLinearity",
-                "us commercial americas current Week Linearity"
-            ],
-            "responses": [
-                142
-            ]
-        },
-        {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_totalPotential",
             "patterns": [
-                "global enterprise segment americas  totalPotential",
+                "global enterprise segment americas totalPotential",
                 "global enterprise segment americas total Potential"
             ],
             "responses": [
@@ -913,7 +886,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_changeInPotential",
             "patterns": [
-                "global enterprise segment americas  changeInPotential",
+                "global enterprise segment americas changeInPotential",
                 "global enterprise segment americas change In Potential"
             ],
             "responses": [
@@ -923,7 +896,7 @@
         {
             "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_currentWeekToGoTogo",
             "patterns": [
-                "global enterprise segment americas  currentWeekToGoTogo",
+                "global enterprise segment americas currentWeekToGoTogo",
                 "global enterprise segment americas current Week To Go Togo"
             ],
             "responses": [
@@ -931,29 +904,9 @@
             ]
         },
         {
-            "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_%PercentCurrentWeekForecast",
-            "patterns": [
-                "global enterprise segment americas  %PercentCurrentWeekForecast",
-                "global enterprise segment americas % Percent Current Week Forecast"
-            ],
-            "responses": [
-                101
-            ]
-        },
-        {
-            "tag": "GLOBAL_ENTERPRISE_SEGMENT_Americas_currentWeekLinearity",
-            "patterns": [
-                "global enterprise segment americas  currentWeekLinearity",
-                "global enterprise segment americas current Week Linearity"
-            ],
-            "responses": [
-                168
-            ]
-        },
-        {
             "tag": "US_PS_Market_Segment_Americas_totalPotential",
             "patterns": [
-                "us ps market segment americas  totalPotential",
+                "us ps market segment americas totalPotential",
                 "us ps market segment americas total Potential"
             ],
             "responses": [
@@ -963,7 +916,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_changeInPotential",
             "patterns": [
-                "us ps market segment americas  changeInPotential",
+                "us ps market segment americas changeInPotential",
                 "us ps market segment americas change In Potential"
             ],
             "responses": [
@@ -973,7 +926,7 @@
         {
             "tag": "US_PS_Market_Segment_Americas_currentWeekToGoTogo",
             "patterns": [
-                "us ps market segment americas  currentWeekToGoTogo",
+                "us ps market segment americas currentWeekToGoTogo",
                 "us ps market segment americas current Week To Go Togo"
             ],
             "responses": [
@@ -981,29 +934,9 @@
             ]
         },
         {
-            "tag": "US_PS_Market_Segment_Americas_%PercentCurrentWeekForecast",
-            "patterns": [
-                "us ps market segment americas  %PercentCurrentWeekForecast",
-                "us ps market segment americas % Percent Current Week Forecast"
-            ],
-            "responses": [
-                86
-            ]
-        },
-        {
-            "tag": "US_PS_Market_Segment_Americas_currentWeekLinearity",
-            "patterns": [
-                "us ps market segment americas  currentWeekLinearity",
-                "us ps market segment americas current Week Linearity"
-            ],
-            "responses": [
-                144
-            ]
-        },
-        {
             "tag": "LATIN_AMERICA_Americas_totalPotential",
             "patterns": [
-                "latin america americas  totalPotential",
+                "latin america americas totalPotential",
                 "latin america americas total Potential"
             ],
             "responses": [
@@ -1013,7 +946,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_changeInPotential",
             "patterns": [
-                "latin america americas  changeInPotential",
+                "latin america americas changeInPotential",
                 "latin america americas change In Potential"
             ],
             "responses": [
@@ -1023,7 +956,7 @@
         {
             "tag": "LATIN_AMERICA_Americas_currentWeekToGoTogo",
             "patterns": [
-                "latin america americas  currentWeekToGoTogo",
+                "latin america americas currentWeekToGoTogo",
                 "latin america americas current Week To Go Togo"
             ],
             "responses": [
@@ -1031,29 +964,9 @@
             ]
         },
         {
-            "tag": "LATIN_AMERICA_Americas_%PercentCurrentWeekForecast",
-            "patterns": [
-                "latin america americas  %PercentCurrentWeekForecast",
-                "latin america americas % Percent Current Week Forecast"
-            ],
-            "responses": [
-                114
-            ]
-        },
-        {
-            "tag": "LATIN_AMERICA_Americas_currentWeekLinearity",
-            "patterns": [
-                "latin america americas  currentWeekLinearity",
-                "latin america americas current Week Linearity"
-            ],
-            "responses": [
-                189
-            ]
-        },
-        {
             "tag": "CANADA_Americas_totalPotential",
             "patterns": [
-                "canada americas  totalPotential",
+                "canada americas totalPotential",
                 "canada americas total Potential"
             ],
             "responses": [
@@ -1063,7 +976,7 @@
         {
             "tag": "CANADA_Americas_changeInPotential",
             "patterns": [
-                "canada americas  changeInPotential",
+                "canada americas changeInPotential",
                 "canada americas change In Potential"
             ],
             "responses": [
@@ -1073,7 +986,7 @@
         {
             "tag": "CANADA_Americas_currentWeekToGoTogo",
             "patterns": [
-                "canada americas  currentWeekToGoTogo",
+                "canada americas currentWeekToGoTogo",
                 "canada americas current Week To Go Togo"
             ],
             "responses": [
@@ -1081,29 +994,9 @@
             ]
         },
         {
-            "tag": "CANADA_Americas_%PercentCurrentWeekForecast",
-            "patterns": [
-                "canada americas  %PercentCurrentWeekForecast",
-                "canada americas % Percent Current Week Forecast"
-            ],
-            "responses": [
-                118
-            ]
-        },
-        {
-            "tag": "CANADA_Americas_currentWeekLinearity",
-            "patterns": [
-                "canada americas  currentWeekLinearity",
-                "canada americas current Week Linearity"
-            ],
-            "responses": [
-                197
-            ]
-        },
-        {
             "tag": "US_AND_CANADA_MISC_Americas_totalPotential",
             "patterns": [
-                "us and canada misc americas  totalPotential",
+                "us and canada misc americas totalPotential",
                 "us and canada misc americas total Potential"
             ],
             "responses": [
@@ -1113,7 +1006,7 @@
         {
             "tag": "US_AND_CANADA_MISC_Americas_changeInPotential",
             "patterns": [
-                "us and canada misc americas  changeInPotential",
+                "us and canada misc americas changeInPotential",
                 "us and canada misc americas change In Potential"
             ],
             "responses": [
@@ -1123,7 +1016,7 @@
         {
             "tag": "US_AND_CANADA_MISC_Americas_currentWeekToGoTogo",
             "patterns": [
-                "us and canada misc americas  currentWeekToGoTogo",
+                "us and canada misc americas currentWeekToGoTogo",
                 "us and canada misc americas current Week To Go Togo"
             ],
             "responses": [
@@ -1133,7 +1026,7 @@
         {
             "tag": "Americas-MISCL2_currentWeekToGoTogo",
             "patterns": [
-                "americas-miscl2  currentWeekToGoTogo",
+                "americas-miscl2 currentWeekToGoTogo",
                 "americas miscl2 current Week To Go Togo"
             ],
             "responses": [
@@ -1143,7 +1036,7 @@
         {
             "tag": "US_OTHER_Americas_totalPotential",
             "patterns": [
-                "us other americas  totalPotential",
+                "us other americas totalPotential",
                 "us other americas total Potential"
             ],
             "responses": [
@@ -1153,7 +1046,7 @@
         {
             "tag": "US_OTHER_Americas_changeInPotential",
             "patterns": [
-                "us other americas  changeInPotential",
+                "us other americas changeInPotential",
                 "us other americas change In Potential"
             ],
             "responses": [
@@ -1163,7 +1056,7 @@
         {
             "tag": "US_OTHER_Americas_currentWeekToGoTogo",
             "patterns": [
-                "us other americas  currentWeekToGoTogo",
+                "us other americas currentWeekToGoTogo",
                 "us other americas current Week To Go Togo"
             ],
             "responses": [
@@ -1171,29 +1064,9 @@
             ]
         },
         {
-            "tag": "US_OTHER_Americas_%PercentCurrentWeekForecast",
-            "patterns": [
-                "us other americas  %PercentCurrentWeekForecast",
-                "us other americas % Percent Current Week Forecast"
-            ],
-            "responses": [
-                -13
-            ]
-        },
-        {
-            "tag": "US_OTHER_Americas_currentWeekLinearity",
-            "patterns": [
-                "us other americas  currentWeekLinearity",
-                "us other americas current Week Linearity"
-            ],
-            "responses": [
-                -22
-            ]
-        },
-        {
             "tag": "SBTG_US_COMMERCIAL_Americas_totalPotential",
             "patterns": [
-                "sbtg_us commercial americas  totalPotential",
+                "sbtg_us commercial americas totalPotential",
                 "sbtg us commercial americas total Potential"
             ],
             "responses": [
@@ -1203,7 +1076,7 @@
         {
             "tag": "SBTG_US_COMMERCIAL_Americas_currentWeekToGoTogo",
             "patterns": [
-                "sbtg_us commercial americas  currentWeekToGoTogo",
+                "sbtg_us commercial americas currentWeekToGoTogo",
                 "sbtg us commercial americas current Week To Go Togo"
             ],
             "responses": [
@@ -1211,29 +1084,9 @@
             ]
         },
         {
-            "tag": "SBTG_US_COMMERCIAL_Americas_%PercentCurrentWeekForecast",
-            "patterns": [
-                "sbtg_us commercial americas  %PercentCurrentWeekForecast",
-                "sbtg us commercial americas % Percent Current Week Forecast"
-            ],
-            "responses": [
-                53
-            ]
-        },
-        {
-            "tag": "SBTG_US_COMMERCIAL_Americas_currentWeekLinearity",
-            "patterns": [
-                "sbtg_us commercial americas  currentWeekLinearity",
-                "sbtg us commercial americas current Week Linearity"
-            ],
-            "responses": [
-                88
-            ]
-        },
-        {
             "tag": "AMERICAS_MISC_Americas_totalPotential",
             "patterns": [
-                "americas_misc americas  totalPotential",
+                "americas_misc americas totalPotential",
                 "americas misc americas total Potential"
             ],
             "responses": [
@@ -1243,7 +1096,7 @@
         {
             "tag": "AMERICAS_MISC_Americas_currentWeekToGoTogo",
             "patterns": [
-                "americas_misc americas  currentWeekToGoTogo",
+                "americas_misc americas currentWeekToGoTogo",
                 "americas misc americas current Week To Go Togo"
             ],
             "responses": [
@@ -1253,7 +1106,7 @@
         {
             "tag": "__Grand_Total_totalPotential",
             "patterns": [
-                "  grand total  totalPotential",
+                "grand total totalPotential",
                 "grand total total Potential"
             ],
             "responses": [
@@ -1263,7 +1116,7 @@
         {
             "tag": "__Grand_Total_changeInPotential",
             "patterns": [
-                "  grand total  changeInPotential",
+                "grand total changeInPotential",
                 "grand total change In Potential"
             ],
             "responses": [
@@ -1273,7 +1126,7 @@
         {
             "tag": "__Grand_Total_currentWeekToGoTogo",
             "patterns": [
-                "  grand total  currentWeekToGoTogo",
+                "grand total currentWeekToGoTogo",
                 "grand total current Week To Go Togo"
             ],
             "responses": [
@@ -1281,29 +1134,9 @@
             ]
         },
         {
-            "tag": "__Grand_Total_%PercentCurrentWeekForecast",
-            "patterns": [
-                "  grand total  %PercentCurrentWeekForecast",
-                "grand total % Percent Current Week Forecast"
-            ],
-            "responses": [
-                100
-            ]
-        },
-        {
-            "tag": "__Grand_Total_currentWeekLinearity",
-            "patterns": [
-                "  grand total  currentWeekLinearity",
-                "grand total current Week Linearity"
-            ],
-            "responses": [
-                167
-            ]
-        },
-        {
             "tag": "Collaboration_actualsWTD",
             "patterns": [
-                "collaboration  actualsWTD",
+                "collaboration actualsWTD",
                 "collaboration actuals WTD"
             ],
             "responses": [
@@ -1313,7 +1146,7 @@
         {
             "tag": "Collaboration_currDayActualWTD",
             "patterns": [
-                "collaboration  currDayActualWTD",
+                "collaboration currDayActualWTD",
                 "collaboration curr Day Actual WTD"
             ],
             "responses": [
@@ -1323,7 +1156,7 @@
         {
             "tag": "Collaboration_totalPot'l",
             "patterns": [
-                "collaboration  totalPot'l",
+                "collaboration totalPot'l",
                 "collaboration total Pot l"
             ],
             "responses": [
@@ -1333,7 +1166,7 @@
         {
             "tag": "Collaboration_changeInPot'lPriorDay",
             "patterns": [
-                "collaboration  changeInPot'lPriorDay",
+                "collaboration changeInPot'lPriorDay",
                 "collaboration change In Pot l Prior Day"
             ],
             "responses": [
@@ -1343,7 +1176,7 @@
         {
             "tag": "Enterprise_Switching_actualsWTD",
             "patterns": [
-                "enterprise switching  actualsWTD",
+                "enterprise switching actualsWTD",
                 "enterprise switching actuals WTD"
             ],
             "responses": [
@@ -1353,7 +1186,7 @@
         {
             "tag": "Enterprise_Switching_currDayActualWTD",
             "patterns": [
-                "enterprise switching  currDayActualWTD",
+                "enterprise switching currDayActualWTD",
                 "enterprise switching curr Day Actual WTD"
             ],
             "responses": [
@@ -1363,7 +1196,7 @@
         {
             "tag": "Enterprise_Switching_totalPot'l",
             "patterns": [
-                "enterprise switching  totalPot'l",
+                "enterprise switching totalPot'l",
                 "enterprise switching total Pot l"
             ],
             "responses": [
@@ -1373,7 +1206,7 @@
         {
             "tag": "Enterprise_Switching_changeInPot'lPriorDay",
             "patterns": [
-                "enterprise switching  changeInPot'lPriorDay",
+                "enterprise switching changeInPot'lPriorDay",
                 "enterprise switching change In Pot l Prior Day"
             ],
             "responses": [
@@ -1383,7 +1216,7 @@
         {
             "tag": "Other_actualsWTD",
             "patterns": [
-                "other  actualsWTD",
+                "other actualsWTD",
                 "other actuals WTD"
             ],
             "responses": [
@@ -1393,7 +1226,7 @@
         {
             "tag": "Other_currDayActualWTD",
             "patterns": [
-                "other  currDayActualWTD",
+                "other currDayActualWTD",
                 "other curr Day Actual WTD"
             ],
             "responses": [
@@ -1403,7 +1236,7 @@
         {
             "tag": "Other_totalPot'l",
             "patterns": [
-                "other  totalPot'l",
+                "other totalPot'l",
                 "other total Pot l"
             ],
             "responses": [
@@ -1413,7 +1246,7 @@
         {
             "tag": "Other_changeInPot'lPriorDay",
             "patterns": [
-                "other  changeInPot'lPriorDay",
+                "other changeInPot'lPriorDay",
                 "other change In Pot l Prior Day"
             ],
             "responses": [
@@ -1423,7 +1256,7 @@
         {
             "tag": "Enterprise_Routing_actualsWTD",
             "patterns": [
-                "enterprise routing  actualsWTD",
+                "enterprise routing actualsWTD",
                 "enterprise routing actuals WTD"
             ],
             "responses": [
@@ -1433,7 +1266,7 @@
         {
             "tag": "Enterprise_Routing_currDayActualWTD",
             "patterns": [
-                "enterprise routing  currDayActualWTD",
+                "enterprise routing currDayActualWTD",
                 "enterprise routing curr Day Actual WTD"
             ],
             "responses": [
@@ -1443,7 +1276,7 @@
         {
             "tag": "Enterprise_Routing_totalPot'l",
             "patterns": [
-                "enterprise routing  totalPot'l",
+                "enterprise routing totalPot'l",
                 "enterprise routing total Pot l"
             ],
             "responses": [
@@ -1453,7 +1286,7 @@
         {
             "tag": "Enterprise_Routing_changeInPot'lPriorDay",
             "patterns": [
-                "enterprise routing  changeInPot'lPriorDay",
+                "enterprise routing changeInPot'lPriorDay",
                 "enterprise routing change In Pot l Prior Day"
             ],
             "responses": [
@@ -1463,7 +1296,7 @@
         {
             "tag": "Data_Center_Switching_actualsWTD",
             "patterns": [
-                "data center switching  actualsWTD",
+                "data center switching actualsWTD",
                 "data center switching actuals WTD"
             ],
             "responses": [
@@ -1473,7 +1306,7 @@
         {
             "tag": "Data_Center_Switching_currDayActualWTD",
             "patterns": [
-                "data center switching  currDayActualWTD",
+                "data center switching currDayActualWTD",
                 "data center switching curr Day Actual WTD"
             ],
             "responses": [
@@ -1483,7 +1316,7 @@
         {
             "tag": "Data_Center_Switching_totalPot'l",
             "patterns": [
-                "data center switching  totalPot'l",
+                "data center switching totalPot'l",
                 "data center switching total Pot l"
             ],
             "responses": [
@@ -1493,7 +1326,7 @@
         {
             "tag": "Data_Center_Switching_changeInPot'lPriorDay",
             "patterns": [
-                "data center switching  changeInPot'lPriorDay",
+                "data center switching changeInPot'lPriorDay",
                 "data center switching change In Pot l Prior Day"
             ],
             "responses": [
@@ -1503,7 +1336,7 @@
         {
             "tag": "Security_actualsWTD",
             "patterns": [
-                "security  actualsWTD",
+                "security actualsWTD",
                 "security actuals WTD"
             ],
             "responses": [
@@ -1513,7 +1346,7 @@
         {
             "tag": "Security_currDayActualWTD",
             "patterns": [
-                "security  currDayActualWTD",
+                "security currDayActualWTD",
                 "security curr Day Actual WTD"
             ],
             "responses": [
@@ -1523,7 +1356,7 @@
         {
             "tag": "Security_totalPot'l",
             "patterns": [
-                "security  totalPot'l",
+                "security totalPot'l",
                 "security total Pot l"
             ],
             "responses": [
@@ -1533,7 +1366,7 @@
         {
             "tag": "Security_changeInPot'lPriorDay",
             "patterns": [
-                "security  changeInPot'lPriorDay",
+                "security changeInPot'lPriorDay",
                 "security change In Pot l Prior Day"
             ],
             "responses": [
@@ -1543,7 +1376,7 @@
         {
             "tag": "Wireless_actualsWTD",
             "patterns": [
-                "wireless  actualsWTD",
+                "wireless actualsWTD",
                 "wireless actuals WTD"
             ],
             "responses": [
@@ -1553,7 +1386,7 @@
         {
             "tag": "Wireless_currDayActualWTD",
             "patterns": [
-                "wireless  currDayActualWTD",
+                "wireless currDayActualWTD",
                 "wireless curr Day Actual WTD"
             ],
             "responses": [
@@ -1563,7 +1396,7 @@
         {
             "tag": "Wireless_totalPot'l",
             "patterns": [
-                "wireless  totalPot'l",
+                "wireless totalPot'l",
                 "wireless total Pot l"
             ],
             "responses": [
@@ -1573,7 +1406,7 @@
         {
             "tag": "Wireless_changeInPot'lPriorDay",
             "patterns": [
-                "wireless  changeInPot'lPriorDay",
+                "wireless changeInPot'lPriorDay",
                 "wireless change In Pot l Prior Day"
             ],
             "responses": [
@@ -1583,7 +1416,7 @@
         {
             "tag": "Service_Provider_Routing_actualsWTD",
             "patterns": [
-                "service provider routing  actualsWTD",
+                "service provider routing actualsWTD",
                 "service provider routing actuals WTD"
             ],
             "responses": [
@@ -1593,7 +1426,7 @@
         {
             "tag": "Service_Provider_Routing_currDayActualWTD",
             "patterns": [
-                "service provider routing  currDayActualWTD",
+                "service provider routing currDayActualWTD",
                 "service provider routing curr Day Actual WTD"
             ],
             "responses": [
@@ -1603,7 +1436,7 @@
         {
             "tag": "Service_Provider_Routing_totalPot'l",
             "patterns": [
-                "service provider routing  totalPot'l",
+                "service provider routing totalPot'l",
                 "service provider routing total Pot l"
             ],
             "responses": [
@@ -1613,7 +1446,7 @@
         {
             "tag": "Service_Provider_Routing_changeInPot'lPriorDay",
             "patterns": [
-                "service provider routing  changeInPot'lPriorDay",
+                "service provider routing changeInPot'lPriorDay",
                 "service provider routing change In Pot l Prior Day"
             ],
             "responses": [
@@ -1623,7 +1456,7 @@
         {
             "tag": "Meraki_actualsWTD",
             "patterns": [
-                "meraki  actualsWTD",
+                "meraki actualsWTD",
                 "meraki actuals WTD"
             ],
             "responses": [
@@ -1633,7 +1466,7 @@
         {
             "tag": "Meraki_currDayActualWTD",
             "patterns": [
-                "meraki  currDayActualWTD",
+                "meraki currDayActualWTD",
                 "meraki curr Day Actual WTD"
             ],
             "responses": [
@@ -1643,7 +1476,7 @@
         {
             "tag": "Meraki_totalPot'l",
             "patterns": [
-                "meraki  totalPot'l",
+                "meraki totalPot'l",
                 "meraki total Pot l"
             ],
             "responses": [
@@ -1653,7 +1486,7 @@
         {
             "tag": "Meraki_changeInPot'lPriorDay",
             "patterns": [
-                "meraki  changeInPot'lPriorDay",
+                "meraki changeInPot'lPriorDay",
                 "meraki change In Pot l Prior Day"
             ],
             "responses": [
@@ -1663,7 +1496,7 @@
         {
             "tag": "Computing_Systems_actualsWTD",
             "patterns": [
-                "computing systems  actualsWTD",
+                "computing systems actualsWTD",
                 "computing systems actuals WTD"
             ],
             "responses": [
@@ -1673,7 +1506,7 @@
         {
             "tag": "Computing_Systems_currDayActualWTD",
             "patterns": [
-                "computing systems  currDayActualWTD",
+                "computing systems currDayActualWTD",
                 "computing systems curr Day Actual WTD"
             ],
             "responses": [
@@ -1683,7 +1516,7 @@
         {
             "tag": "Computing_Systems_totalPot'l",
             "patterns": [
-                "computing systems  totalPot'l",
+                "computing systems totalPot'l",
                 "computing systems total Pot l"
             ],
             "responses": [
@@ -1693,7 +1526,7 @@
         {
             "tag": "Computing_Systems_changeInPot'lPriorDay",
             "patterns": [
-                "computing systems  changeInPot'lPriorDay",
+                "computing systems changeInPot'lPriorDay",
                 "computing systems change In Pot l Prior Day"
             ],
             "responses": [
@@ -1703,7 +1536,7 @@
         {
             "tag": "Industrial_IOT_Networking_actualsWTD",
             "patterns": [
-                "industrial iot networking  actualsWTD",
+                "industrial iot networking actualsWTD",
                 "industrial iot networking actuals WTD"
             ],
             "responses": [
@@ -1713,7 +1546,7 @@
         {
             "tag": "Industrial_IOT_Networking_currDayActualWTD",
             "patterns": [
-                "industrial iot networking  currDayActualWTD",
+                "industrial iot networking currDayActualWTD",
                 "industrial iot networking curr Day Actual WTD"
             ],
             "responses": [
@@ -1723,7 +1556,7 @@
         {
             "tag": "Industrial_IOT_Networking_totalPot'l",
             "patterns": [
-                "industrial iot networking  totalPot'l",
+                "industrial iot networking totalPot'l",
                 "industrial iot networking total Pot l"
             ],
             "responses": [
@@ -1733,7 +1566,7 @@
         {
             "tag": "Industrial_IOT_Networking_changeInPot'lPriorDay",
             "patterns": [
-                "industrial iot networking  changeInPot'lPriorDay",
+                "industrial iot networking changeInPot'lPriorDay",
                 "industrial iot networking change In Pot l Prior Day"
             ],
             "responses": [
@@ -1743,7 +1576,7 @@
         {
             "tag": "IOT_actualsWTD",
             "patterns": [
-                "iot  actualsWTD",
+                "iot actualsWTD",
                 "iot actuals WTD"
             ],
             "responses": [
@@ -1753,7 +1586,7 @@
         {
             "tag": "IOT_currDayActualWTD",
             "patterns": [
-                "iot  currDayActualWTD",
+                "iot currDayActualWTD",
                 "iot curr Day Actual WTD"
             ],
             "responses": [
@@ -1763,7 +1596,7 @@
         {
             "tag": "IOT_totalPot'l",
             "patterns": [
-                "iot  totalPot'l",
+                "iot totalPot'l",
                 "iot total Pot l"
             ],
             "responses": [
@@ -1773,7 +1606,7 @@
         {
             "tag": "SP_Video_Software_and_Solutions_actualsWTD",
             "patterns": [
-                "sp video software and solutions  actualsWTD",
+                "sp video software and solutions actualsWTD",
                 "sp video software and solutions actuals WTD"
             ],
             "responses": [
@@ -1783,7 +1616,7 @@
         {
             "tag": "SP_Video_Software_and_Solutions_currDayActualWTD",
             "patterns": [
-                "sp video software and solutions  currDayActualWTD",
+                "sp video software and solutions currDayActualWTD",
                 "sp video software and solutions curr Day Actual WTD"
             ],
             "responses": [
@@ -1793,7 +1626,7 @@
         {
             "tag": "SP_Video_Software_and_Solutions_totalPot'l",
             "patterns": [
-                "sp video software and solutions  totalPot'l",
+                "sp video software and solutions totalPot'l",
                 "sp video software and solutions total Pot l"
             ],
             "responses": [
@@ -1803,7 +1636,7 @@
         {
             "tag": "Monitoring_and_Analytics_actualsWTD",
             "patterns": [
-                "monitoring and analytics  actualsWTD",
+                "monitoring and analytics actualsWTD",
                 "monitoring and analytics actuals WTD"
             ],
             "responses": [
@@ -1813,7 +1646,7 @@
         {
             "tag": "Monitoring_and_Analytics_currDayActualWTD",
             "patterns": [
-                "monitoring and analytics  currDayActualWTD",
+                "monitoring and analytics currDayActualWTD",
                 "monitoring and analytics curr Day Actual WTD"
             ],
             "responses": [
@@ -1823,7 +1656,7 @@
         {
             "tag": "Monitoring_and_Analytics_totalPot'l",
             "patterns": [
-                "monitoring and analytics  totalPot'l",
+                "monitoring and analytics totalPot'l",
                 "monitoring and analytics total Pot l"
             ],
             "responses": [
@@ -1833,7 +1666,7 @@
         {
             "tag": "Mobility_actualsWTD",
             "patterns": [
-                "mobility  actualsWTD",
+                "mobility actualsWTD",
                 "mobility actuals WTD"
             ],
             "responses": [
@@ -1843,7 +1676,7 @@
         {
             "tag": "Mobility_currDayActualWTD",
             "patterns": [
-                "mobility  currDayActualWTD",
+                "mobility currDayActualWTD",
                 "mobility curr Day Actual WTD"
             ],
             "responses": [
@@ -1853,7 +1686,7 @@
         {
             "tag": "Mobility_totalPot'l",
             "patterns": [
-                "mobility  totalPot'l",
+                "mobility totalPot'l",
                 "mobility total Pot l"
             ],
             "responses": [
@@ -1863,7 +1696,7 @@
         {
             "tag": "Grand_Total_actualsWTD",
             "patterns": [
-                "grand total  actualsWTD",
+                "grand total actualsWTD",
                 "grand total actuals WTD"
             ],
             "responses": [
@@ -1873,7 +1706,7 @@
         {
             "tag": "Grand_Total_currDayActualWTD",
             "patterns": [
-                "grand total  currDayActualWTD",
+                "grand total currDayActualWTD",
                 "grand total curr Day Actual WTD"
             ],
             "responses": [
@@ -1883,7 +1716,7 @@
         {
             "tag": "Grand_Total_totalPot'l",
             "patterns": [
-                "grand total  totalPot'l",
+                "grand total totalPot'l",
                 "grand total total Pot l"
             ],
             "responses": [
@@ -1893,7 +1726,7 @@
         {
             "tag": "Grand_Total_changeInPot'lPriorDay",
             "patterns": [
-                "grand total  changeInPot'lPriorDay",
+                "grand total changeInPot'lPriorDay",
                 "grand total change In Pot l Prior Day"
             ],
             "responses": [
@@ -1903,8 +1736,8 @@
         {
             "tag": "landingLevel",
             "patterns": [
-                " landingLevel",
-                " landing Level"
+                "landingLevel",
+                "landing Level"
             ],
             "responses": [
                 1
@@ -1913,7 +1746,6 @@
         {
             "tag": "Current_Week_Forecast_Americas_approx",
             "patterns": [
-                "current week forecast americas  approx",
                 "current week forecast americas approx"
             ],
             "responses": [
@@ -1923,7 +1755,6 @@
         {
             "tag": "Current_Week_Forecast_Americas_exact",
             "patterns": [
-                "current week forecast americas  exact",
                 "current week forecast americas exact"
             ],
             "responses": [
@@ -1933,7 +1764,6 @@
         {
             "tag": "Current_WTD_Actuals_Americas_approx",
             "patterns": [
-                "current wtd actuals americas  approx",
                 "current wtd actuals americas approx"
             ],
             "responses": [
@@ -1943,7 +1773,6 @@
         {
             "tag": "Current_WTD_Actuals_Americas_exact",
             "patterns": [
-                "current wtd actuals americas  exact",
                 "current wtd actuals americas exact"
             ],
             "responses": [
@@ -1953,7 +1782,6 @@
         {
             "tag": "Current_Week_to_Go_Americas_approx",
             "patterns": [
-                "current week to go americas  approx",
                 "current week to go americas approx"
             ],
             "responses": [
@@ -1963,7 +1791,6 @@
         {
             "tag": "Current_Week_to_Go_Americas_exact",
             "patterns": [
-                "current week to go americas  exact",
                 "current week to go americas exact"
             ],
             "responses": [
@@ -1973,7 +1800,6 @@
         {
             "tag": "Total_Potential_Americas_approx",
             "patterns": [
-                "total potential americas  approx",
                 "total potential americas approx"
             ],
             "responses": [
@@ -1983,7 +1809,6 @@
         {
             "tag": "Total_Potential_Americas_exact",
             "patterns": [
-                "total potential americas  exact",
                 "total potential americas exact"
             ],
             "responses": [
@@ -1993,7 +1818,6 @@
         {
             "tag": "WTD_%_Attainment_of_Forecast_Americas_approx",
             "patterns": [
-                "wtd % attainment of forecast americas  approx",
                 "wtd % attainment of forecast americas approx"
             ],
             "responses": [
@@ -2003,7 +1827,6 @@
         {
             "tag": "WTD_%_Attainment_of_Forecast_Americas_exact",
             "patterns": [
-                "wtd % attainment of forecast americas  exact",
                 "wtd % attainment of forecast americas exact"
             ],
             "responses": [

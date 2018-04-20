@@ -4,18 +4,53 @@ var dialogflowMiddleware = require('botkit-middleware-dialogflow')({
 });
 module.exports = function(controller) {
 
-    // controller.middleware.receive.use(dialogflowMiddleware.receive);
-    // controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
-    // console.log("message",JSON.stringify(message));
-    // var response = getMBRdata( message);
-    // if (response == ''){
-    //     getAssistance(bot, message);
-    // }
-    // else{
-    //     bot.reply(message,response);
-    // }
-      
-    // });
+    controller.middleware.receive.use(dialogflowMiddleware.receive);
+    controller.hears(['.*'], ['direct_message'],dialogflowMiddleware.hears,function(bot, message) {
+    console.log("message",JSON.stringify(message),message.fulfillment.speech[0] );
+    if (message.fulfillment.speech[0] == '_'){
+      var response = getMBRdata( message);
+      if (response == ''){
+          getAssistance(bot, message);
+      }
+      else{
+          bot.reply(message,response);
+      }
+    }
+    else{
+        bot.startConversation(message, function(err, convo) {
+          convo.ask(message.fulfillment.speech, function(response, convo) {
+            console.log("esponse.text",response.text)
+            convo.next();
+          });
+        });
+    }
+        
+    });
+  controller.middleware.capture.use(function(bot, message, convo, next) {
+
+    // user's raw response is in message.text
+    console.log("message captured", message);
+    if (message.fulfillment.speech[0] == '_'){
+          var response = getMBRdata( message);
+          if (response == ''){
+              getAssistance(bot, message);
+          }
+          else{
+              bot.reply(message,response);
+          }
+        }
+        else{
+            bot.startConversation(message, function(err, convo) {
+              convo.ask(message.fulfillment.speech, function(response, convo) {
+                console.log("esponse.text",response.text)
+                convo.next();
+              });
+            });
+        }
+    // always call next!
+    next();
+
+});
 
 //     controller.middleware.send.use(function(bot, message, next) {
 
@@ -33,7 +68,7 @@ module.exports = function(controller) {
     function getMBRdata(tag) {
         var text = ""; 
         obj.intents.forEach(element => {
-            if (element.tag == tag.fulfillment.speech){
+            if (element.tag == tag.fulfillment.speech.substring(1)){
                 text = element.responses[0];
                 return text;
             }
