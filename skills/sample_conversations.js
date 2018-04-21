@@ -26,6 +26,28 @@ module.exports = function(controller) {
 
     });
 
+    controller.hears(['stream'], 'direct_message,direct_mention', function(bot, message) {
+
+        bot.startConversation(message, function(err, convo) {
+            
+            convo.ask('What value would you like to stream?', function(response, convo) {
+                
+                    var test = setInterval(function() {
+                        var rand = Math.floor(Math.random() * 31) + 50;
+                        convo.say('Your current WTD is rand');
+                    }, 60 * 1000);
+                    if(response.text == 'stop'){
+                        clearInterval(test);
+                    }
+                
+                convo.next();
+
+            });
+        });
+
+    });
+    
+
 
     controller.hears(['question'], 'direct_message,direct_mention', function(bot, message) {
 
