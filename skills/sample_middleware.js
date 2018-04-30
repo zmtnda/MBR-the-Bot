@@ -27,23 +27,31 @@ module.exports = function(controller) {
     console.log("intent hearing", intent)
     if (intent.indexOf('_') > -1){
       var response = getMBRdata(intent);
+      response = "$ "+response + "K";
       var next_intent = message.fulfillment.speech;
-      obj.intents.forEach(element => {
+      if (next_intent != ""){
+        obj.intents.forEach(element => {
         if (element.tag == next_intent){
           // get the last phrases of the patterns array: element.responses.length - 1
             phrase = element.patterns[element.patterns.length - 1];
             return phrase;
         }
-      });
-      var msg = response + os.EOL + " \n"+ "Do you also want to know " + phrase + "?"; 
-      bot.startConversation(message, function(err, convo) {
-        convo.ask(msg, function(response, convo) {
-          console.log("response hearing",response);
-
-          // convo.say(response);
-          convo.next(); 
         });
-      });
+        var msg = response + os.EOL + " \n"+ "Do you also want to know " + phrase + "?"; 
+        bot.startConversation(message, function(err, convo) {
+          convo.ask(msg, function(response, convo) {
+            console.log("response hearing",response);
+
+            // convo.say(response);
+            convo.next(); 
+          });
+        });
+      }else{
+        bot.startConversation(message, function(err, convo) {
+          console.log("intent hearing start convo", response)
+          convo.sayFirst(response);
+        });
+      }
     }
     else{
       bot.startConversation(message, function(err, convo) {
@@ -59,26 +67,35 @@ module.exports = function(controller) {
     var array = message.intent.split('-');
     var intent = array[array.length - 1]
     console.log("intent capture", intent)
+    //|| message.fulfillment.speech.indexOf('_') <= -1
     if (message.intent.toLowerCase() == "no" || intent.indexOf('_') <= -1){
       convo.say(message.fulfillment.speech);
-    }
-    else {
+    } 
+    else {  
       var response = getMBRdata(intent);
+      response = "$ "+ response + "K";
       var next_intent = message.fulfillment.speech;
-      obj.intents.forEach(element => {
-        if (element.tag == next_intent){
-          // get the last phrases of the patterns array: element.responses.length - 1
-            phrase = element.patterns[element.patterns.length - 1];
-            return phrase;
-        }
-      });
-      var msg = response + os.EOL + " \n"+ "Do you also want to know " + phrase + "?"; 
-      bot.startConversation(message, function(err, convo) {
-        convo.ask(msg, function(response, convo) {
-          console.log("response capture",response);
-          convo.next(); 
+      if (next_intent != ""){
+        obj.intents.forEach(element => {
+          if (element.tag == next_intent){
+            // get the last phrases of the patterns array: element.responses.length - 1
+              phrase = element.patterns[element.patterns.length - 1];
+              return phrase;
+          }
         });
-      });
+        var msg = response + os.EOL + " \n"+ "Do you also want to know " + phrase + "?"; 
+        bot.startConversation(message, function(err, convo) {
+          convo.ask(msg, function(response, convo) {
+            console.log("response capture",response);
+            convo.next(); 
+          });
+        });
+      }else{
+        bot.startConversation(message, function(err, convo) {
+          console.log("intent hearing start convo", response)
+          convo.sayFirst(response);
+        });
+      }
     }
      
     next();
