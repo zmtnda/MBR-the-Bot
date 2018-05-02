@@ -1,7 +1,7 @@
 // Set up dialogFlow middleware
-var dialogflowMiddleware = require('botkit-middleware-dialogflow')({
-  token: process.env.dialog_token,
-});
+// var dialogflowMiddleware = require('botkit-middleware-dialogflow')({
+//   token: process.env.dialog_token,
+// });
 var os = require('os');
 // simple function to generate the corresponding MBR responses
 var fs = require('fs');
@@ -10,7 +10,11 @@ var obj = JSON.parse(fs.readFileSync('./shared/intents.json', 'utf8'));
 
 module.exports = function(controller) {
 var phrase = ""; 
-
+var rasa = require('botkit-rasa')({
+  rasa_uri: 'http://localhost:5005',
+  //rasa_project: "default"
+});
+controller.middleware.receive.use(rasa.receive);
 controller.middleware.normalize.use(function(bot, message, next) {
   console.log("I m normalizing sth", JSON.stringify(message))
   if (message.text.toLowerCase() == "yes"){
@@ -19,9 +23,9 @@ controller.middleware.normalize.use(function(bot, message, next) {
   // call next to proceed
   next();      
 });
-controller.middleware.receive.use(dialogflowMiddleware.receive);
-controller.hears(['.*'], 'direct_message', dialogflowMiddleware.hears, function(bot, message) {
-  console.log("I m hearing sth", JSON.stringify(message))
+
+controller.hears(['.*'], 'direct_message', function(bot, message) {
+  console.log("I m hearing sthfdasfasdfasdf", JSON.stringify(message))
   var array = message.intent.split('-');
   var intent = array[array.length - 1]
   console.log("intent hearing", intent)
